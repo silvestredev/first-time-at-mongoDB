@@ -10,12 +10,12 @@ router.get('/', produtosController.showProdutos);
 router.get('/create', produtosController.createProdutos);
 router.post('/create', produtosController.createPost);
 //produto
-router.get('/:id', produtosController.produto)
+router.get('/:id', produtosController.produto);
 //edit
 router.get('/edit/:id', produtosController.edit)
 router.post('/edit', produtosController.editPost);
 //remove
-router.post('/remove/:id', produtosController.remove)
+router.post('/remove/:id', produtosController.remove);
 
 
 module.exports = router;

@@ -1,1 +1,1 @@
-npm i express express-handlebars mongodb nodemon
+npm i express express-handlebars mongodb mongoose nodemon
